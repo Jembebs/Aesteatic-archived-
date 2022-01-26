@@ -18,6 +18,11 @@
         color: #fff;
       }
 
+      .fntlgt2 {
+        color: #fff;
+        opacity: 0.5;
+      }
+
       .fntlrg {
         font-size: 3.5rem;
       }
@@ -61,47 +66,88 @@
       <p class="fntlgt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odio alias perspiciatis fuga? Quam alias animi ex accusantium autem ab praesentium, ipsam labore ullam modi numquam possimus impedit mollitia quisquam adipisci temporibus. Impedit incidunt, voluptates perferendis sit eum aliquam animi qui nesciunt aspernatur, illum eligendi. Quae inventore, quisquam nam nesciunt consequatur voluptate magnam debitis commodi veritatis excepturi molestias neque maxime, minus consectetur nemo esse asperiores error necessitatibus ea saepe officiis accusamus! Recusandae debitis quos earum ratione illum libero ea, rem quisquam! Ipsa, consectetur? Beatae aliquid vitae at distinctio nisi veniam incidunt saepe labore consequuntur iusto. Eveniet nesciunt dolores laborum aliquam.</p>
     </div>
 
-    <h1 id="bestseller-text" class="container-lg py-10 text-center fntlgt fntlrg">OUR BESTSELLERS:</h1>
+    
 
     <!--temporary product showcase (carousel)-->
-    <div class="container py-4 d-flex justify-content-center">
-      <div id="carouselBestsellers" class="carousel slide w-50 h-50" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselBestsellers" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselBestsellers" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselBestsellers" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div id="bestsellerarea" class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col">
+          <h1 id="bestseller-text" class="container-lg py-10 text-center fntlgt">OUR BESTSELLERS:</h1>
+          <div class="container py-4 d-flex justify-content-center">
+            <div id="carouselBestsellers" class="carousel slide w-50 h-50" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselBestsellers" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselBestsellers" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselBestsellers" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="projects/aesteatic/tea1.jpg" class="img-fluid" alt="example1">
+                </div>
+                <div class="carousel-item">
+                  <img src="projects/aesteatic/tea2.jpg" class="img-fluid" alt="example2">
+                </div>
+                <div class="carousel-item">
+                  <img src="projects/aesteatic/tea3.jpg" class="img-fluid" alt="example3">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBestsellers" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselBestsellers" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="projects/aesteatic/tea1.jpg" class="d-flex img-fluid" alt="example1">
+        <div class="col">
+          <div class="row">
+
           </div>
-          <div class="carousel-item">
-            <img src="projects/aesteatic/tea2.jpg" class="d-flex img-fluid" alt="example2">
+          <div class="row">
+
           </div>
-          <div class="carousel-item">
-            <img src="projects/aesteatic/tea3.jpg" class="d-flex img-fluid" alt="example3">
+          <div class="row">
+
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselBestsellers" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselBestsellers" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
-      </div>
+    </div>
+    <div class="row">
+
     </div>
 
     <div id="learn-more-btn">
-      <!--Insert learn more button here-->
+      <!--Insert learn more button here linking to the menu-->
     </div>
 
     <div id="pastPromos" class="container-lg py-10">
       <p id="pastPromosText" class="text-center fntlgt fntlrg py-5">
         OUR PRESENT AND PAST PROMOS:
       </p>
-      <!--Insert past promos here using carosel-->
+      <!--Insert past promos here using carousel-->
+    </div>
+
+    <div id="customerArea" class="conteoner-lg py-10">
+      <p id="custText" class="text-center fntlgt fntlrg py-5">
+        CUSTOMERS WHO LOVE US:
+      </p>
+      <!--Insert customer collage (3) using carousel fade with no controls-->
+    </div>
+
+    <div id="footer" class="d-flex flex-row bg-black">
+      <div class="col-1 col-sm-1"></div>
+      <div class="col-5 col-sm-3 d-flex flex-column m-3 bg-black">
+        <h4 class="fntlgt">Contact Us:</h4>
+        <p class="fntlgt2">
+          Facebook <br> Instagram <br> aesteatic@gmail.com <br> 0917 138 4172
+        </p>
+      </div>
+      <!--Insert footer here with the following contents:
+      Contact us:
+      Facebook link, Instagram link, Telephone Number
+      This website is made possible with Bootstrap 5 and Github. View our repository here!-->
     </div>
 
     <script src="js/bootstrap.js"></script> <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>-->
